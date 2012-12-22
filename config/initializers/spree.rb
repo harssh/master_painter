@@ -10,10 +10,10 @@ Spree.config do |config|
   config.site_name = "Мастер Маляр"
   config.currency = "RUB"
 
-   config.use_s3 = true
-   config.s3_bucket = 'master_painter_staging'
-   config.s3_access_key = "AKIAIPCX4XDWJZG65XUQ"
-   config.s3_secret = "K251Uik39bQSv/lSTUDUIMnyQv5bHwkGvY9C0BWG"
+  config.use_s3 = true
+  config.s3_bucket = 'master_painter_staging'
+  config.s3_access_key = "AKIAIPCX4XDWJZG65XUQ"
+  config.s3_secret = "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"
 end
 
 Spree.user_class = "Spree::User"
