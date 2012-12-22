@@ -23,6 +23,7 @@ end
 group :development do
   gem 'heroku_san'
   gem 'foreman'
+  gem 'pry'
 end
 
 gem 'jquery-rails'
