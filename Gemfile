@@ -23,10 +23,11 @@ end
 group :development do
   gem 'heroku_san'
   gem 'foreman'
-  gem 'pry'
+  gem 'pry-rails'
 end
 
 gem 'jquery-rails'
+gem 'rspec-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
