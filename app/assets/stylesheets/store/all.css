@@ -8,5 +8,6 @@
  *= require store/spree_promo
 
  *= require_self
+ *= require store/variant_options
  *= require_tree .
 */

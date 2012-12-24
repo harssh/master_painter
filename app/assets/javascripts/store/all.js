@@ -10,4 +10,6 @@
 //= require store/spree_core
 //= require store/spree_promo
 
+//= require store/product_variant_options
+//= require store/variant_options
 //= require_tree .

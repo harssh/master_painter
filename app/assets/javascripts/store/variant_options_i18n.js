@@ -1,0 +1,1 @@
+variant_options_i18n = { unselected: 'Выберите вариант' };
