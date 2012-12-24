@@ -17,10 +17,12 @@ module OsmoParser
     links.inject([]) do |sum, link|
       match = /^(?<code>\d+).*$/.match(link[:title])
       if match
+        image = link[:image]
+        image = URI.join('http://osmo.ru',link[:image]).to_s unless image.include? 'http:'
         sum << {
             :value => match['code'],
             :presentation => link[:title],
-            :image => link[:image]
+            :image => image
         }
       end
       sum
