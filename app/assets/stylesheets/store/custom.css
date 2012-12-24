@@ -1,0 +1,5 @@
+/* This file contains customizations of standard theme */
+
+div#product-description {
+    font-size: 15px;
+}
