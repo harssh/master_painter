@@ -43,8 +43,9 @@ gem 'rspec-rails'
 
 # To use debugger
 # gem 'debugger'
-gem 'spree', '1.3.0'
+gem 'spree'
 gem 'spree_gateway', :github => 'spree/spree_gateway'
 gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => 'edge'
-gem 'spree_i18n'
+gem 'spree_i18n', :github => 'Maxim-Filimonov/spree_i18n'
 gem 'rails-i18n'
+gem 'spree_variant_options', :github => 'Maxim-Filimonov/spree_variant_options'
