@@ -11,9 +11,10 @@ Spree.config do |config|
   config.currency = "RUB"
 
   config.use_s3 = true
-  config.s3_bucket = 'master_painter_staging'
+  config.s3_bucket = ENV['S3_BUCKET_NAME'] || 'master_painter_staging'
   config.s3_access_key = "AKIAIPCX4XDWJZG65XUQ"
   config.s3_secret = "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"
+  config.logo = 'logo_with_txt_width_120.png'
 end
 
 Spree.user_class = "Spree::User"
