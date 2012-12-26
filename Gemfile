@@ -50,6 +50,7 @@ gem 'spree_i18n', :github => 'spree/spree_i18n'
 gem 'rails-i18n'
 gem 'spree_variant_options', :github => 'Maxim-Filimonov/spree_variant_options'
 gem 'devise-i18n'
+gem 'twitter-bootstrap-rails'
 
 gem 'spree_editor', :github => 'spree/spree_editor'
 gem 'tinymce-rails', '>= 3.4.7.0.1'
