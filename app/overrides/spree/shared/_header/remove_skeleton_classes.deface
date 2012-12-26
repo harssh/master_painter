@@ -1,0 +1,2 @@
+remove_from_attributes '*'
+attributes :class => 'columns three six'

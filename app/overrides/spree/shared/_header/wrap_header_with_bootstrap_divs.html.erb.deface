@@ -1,0 +1,8 @@
+<!-- surround '#header' -->
+<div class="navbar">
+    <div class="navbar-inner">
+          <div class="container-fluid">
+          <%= render_original %>
+          </div>
+    </div>
+</div>
