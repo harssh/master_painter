@@ -24,6 +24,7 @@ group :development do
   gem 'heroku_san'
   gem 'foreman'
   gem 'pry-rails'
+  gem 'diffy'
 end
 
 gem 'jquery-rails'
