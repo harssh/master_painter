@@ -1,2 +1,2 @@
-set_attributes '#main-nav-bar'
-attributes :class => 'nav pull-right'
+set_attributes 'nav'
+attributes :class => 'pull-right'

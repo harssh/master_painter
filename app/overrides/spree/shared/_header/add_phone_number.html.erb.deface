@@ -1,5 +1,5 @@
 <!-- insert_after '#logo' -->
 <!-- sequence :after => 'wrap_figure_in_separate_div' -->
 <div class="phonenumber span7">
-  <a href="callto:+74959711414"><i class="icon-headphones"></i> +7(495) 971-14-14</a>
+  <a href="callto:+74959711414"><i class="icon-phone"></i> +7(495) 971-14-14</a>
 </div>
