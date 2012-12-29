@@ -3,3 +3,10 @@
 div#product-description {
     font-size: 15px;
 }
+.phonenumber a{
+    font-size: 44px;
+    color: rgba(255, 0, 0, 0.81);
+    margin: 60px auto;
+    width: 468px;
+    display: block
+}
