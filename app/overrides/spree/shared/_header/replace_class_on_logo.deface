@@ -1,2 +1,0 @@
-set_attributes '#logo'
-attributes :class => 'span4'

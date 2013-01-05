@@ -1,3 +1,0 @@
-set_attributes '.row'
-attributes :class => 'row-fluid'
-original 'row'

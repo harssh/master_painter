@@ -1,3 +1,0 @@
-set_attributes '.container'
-attributes :class => 'container-fluid'
-original 'container'
