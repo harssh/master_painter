@@ -1,0 +1,111 @@
+@import 'store/spree_core_stripped';
+
+
+// BOOTSTRIP
+header {
+  figure {
+    display: inline;
+    border: 0px;
+
+    img {
+      height: 25px;
+      width: 80px;
+      border: 0px;
+    }
+  }
+
+  nav {
+    display: inline-block;
+    ul {
+      margin: 0px;
+    }
+
+    form {
+      margin: 0px;
+    }
+
+    li {
+      display: inline-block;
+      list-style-type: none;
+    }
+
+  }
+}
+// END BOOTSTRIP
+
+
+nav li{
+  list-style-type: none;
+}
+
+// Pad content wrapper to position below bootstrip header
+//#wrapper {
+//  padding: 20px;
+//}
+
+.product-listing {
+  @extend .thumbnails;
+}
+
+.product-image {
+  a {
+  @extend .thumbnail;
+  }
+}
+// Home
+#myCarousel {
+  margin: 0 auto;
+}
+
+// Taken from spree core scss
+/*--------------------------------------*/
+/* Checkout
+/*--------------------------------------*/
+.progress-steps {
+  list-style: decimal inside;
+  overflow: auto;
+
+  li {
+    float: left;
+    margin-right: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    color: $c_gray1;
+
+    &.current-first, &.current {
+      background-color: $c_colored;
+      color: white;
+    }
+
+    &.completed-first, &.completed {
+      background-color: $c_border;
+      color: white;
+
+      a {
+        color: white;
+      }
+
+      &:hover {
+        background-color: $c_colored;
+        color: white;
+
+        a {
+          color: white;
+
+          &:hover {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+#checkout{
+  form{
+    @extend well;
+    @extend form-inline;
+  }
+}
+

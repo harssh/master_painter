@@ -1,0 +1,61 @@
+// Flash messages/alerts: Spree uses flash.notice, .success & .error
+
+.flash {
+  @extend .alert;
+
+  &.notice {
+    @extend .alert-info;
+  }
+  &.success {
+    @extend .alert-success;
+  }
+  &.error {
+    @extend .alert-error;
+  }
+}
+
+.errorExplanation {
+  @extend .flash.error;
+  @extend .flash;
+
+  p {
+    font-weight: normal;
+  }
+
+  ul {
+    list-style: disc outside;
+    margin-left: 30px;
+
+    li {
+      font-weight: normal;
+    }
+  }
+}
+
+// Buttons
+
+input[type="submit"], input[type="button"],
+input[type= "reset"], button, a.button {
+  @extend .btn;
+}
+
+// Breadcrumbs.  Mixing bootstrap class breadcrumb
+#breadcrumbs ul{
+  @extend .breadcrumb
+}
+
+// Spree's progress-steps are > bootstraps
+
+// Forms
+
+
+// Tables
+
+// layout
+
+
+
+
+
+
+
