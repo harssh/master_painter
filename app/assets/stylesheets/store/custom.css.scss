@@ -1,0 +1,68 @@
+@import 'bootstrap';
+
+/* This file contains customizations of standard theme */
+
+div#product-description {
+  font-size: 15px;
+}
+
+.phonenumber {
+  @include makeColumn(6, 2);
+  a {
+    font-size: 44px;
+    color: rgba(255, 0, 0, 0.81);
+    margin: 60px auto;
+    width: 468px;
+    display: block;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+#nav-bar, #main-nav-bar {
+  @extend .nav;
+}
+
+nav#top-nav-bar {
+  margin-top: 0;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+#logo {
+  @include makeColumn(4);
+  margin-top: 10px;
+}
+
+#sidebar {
+  @include makeColumn(2);
+}
+
+#content {
+  @include makeColumn(10);
+}
+
+footer {
+  .right-footer {
+    @include makeColumn(10, 2);
+  }
+}
+
+#wrapper {
+  @extend .container;
+}
+
+#content {
+  [data-hook='product_show'] {
+    @include makeColumn(12);
+    [data-hook='product_left_part'] {
+      @include makeColumn(4);
+    }
+    [data-hook='product_right_part'] {
+      @include makeColumn(7);
+    }
+  }
+}
