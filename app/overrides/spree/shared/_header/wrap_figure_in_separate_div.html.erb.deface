@@ -1,5 +1,5 @@
 <!-- surround '#logo' -->
 <!-- sequence :after => 'move_figure_outside_of_header' -->
-<div class="row-fluid">
+<div class="row">
     <%= render_original %>
 </div>

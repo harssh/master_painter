@@ -24,6 +24,7 @@ group :development do
   gem 'heroku_san'
   gem 'foreman'
   gem 'pry-rails'
+  gem 'meta_request'
   gem 'diffy'
 end
 
@@ -52,9 +53,8 @@ gem 'rails-i18n'
 gem 'spree_variant_options', :github => 'Maxim-Filimonov/spree_variant_options'
 gem 'devise-i18n'
 
-gem 'bootstrap-sass'
-gem 'font-awesome-sass-rails'
-
 gem 'spree_editor', :github => 'spree/spree_editor'
 gem 'tinymce-rails', '>= 3.4.7.0.1'
 gem 'tinymce-rails-langs'
+gem 'bootstrap-sass'
+gem 'font-awesome-sass-rails'
