@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/Maxim-Filimonov/spree_static_content.git
+  revision: 8a4239116e98a63e318f1eb1aa152d2e54875957
+  branch: fix_translation_namespace
+  specs:
+    spree_static_content (1.1.0.beta)
+      spree_core (~> 1.3.0)
+
+GIT
   remote: git://github.com/Maxim-Filimonov/spree_variant_options.git
   revision: 666b4402bbc2955ea237a0214a87531be607b14c
   specs:
@@ -339,6 +347,7 @@ DEPENDENCIES
   spree_editor!
   spree_gateway!
   spree_i18n!
+  spree_static_content!
   spree_variant_options!
   tinymce-rails (>= 3.4.7.0.1)
   tinymce-rails-langs
