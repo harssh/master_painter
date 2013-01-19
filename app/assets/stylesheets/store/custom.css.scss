@@ -46,8 +46,15 @@ nav#top-nav-bar {
 }
 
 footer {
-  .right-footer {
-    @include makeColumn(10, 2);
+  #footer-right {
+    @include makeColumn(9, 0);
+  }
+  #footer-left {
+    @include makeColumn(2, 0);
+  }
+  ul {
+    @extend .nav;
+    @extend .nav-pills;
   }
 }
 
