@@ -12,6 +12,7 @@ Spree.config do |config|
 
   config.use_s3 = true
   config.logo = 'logo_with_txt_width_120.png'
+  config.track_inventory_levels = false
 end
 
 Spree.user_class = "Spree::User"
