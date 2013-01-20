@@ -73,3 +73,9 @@ footer {
     }
   }
 }
+
+// Temporarly disable shopping cart functionality until business ready to handle delivery
+#main-nav-bar, #link-to-login, .add-to-cart
+  {
+  display: none !important;
+}
